@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src = "jquery-1.11.1.min.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "drawing.css"/>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<title>Game of Life</title>
+
+</head>
+
+<body>
+	<h1> Game of Life </h1>
+
+	<div id = "board"></div>
+
+	<div id = "controlPanel">
+		<button id = "runBtn" class = "btn-xlarge"><span class = "glyphicon glyphicon-play"></span></button>
+		<button id = "stopBtn" class = "btn-xlarge"><span class = "glyphicon glyphicon-pause"></span></butotn>
+	</div>
+	<div id = "options">
+		<button id = "clearBtn">Clear</button>
+		<button id = "randomBtn">Random</button>
+		<button id = "gliderBtn">Glider Gun</button>
+		<span id = "speed">Speed:
+		<select id = "speedDrop">
+		<option value = "slow">Slow</option>
+		<option value = "medium">Medium</option>
+		<option selected = "selected" value = "fast">Fast</option>
+		<option value = "really_fast">Really Fast!</option>
+		</select>
+	</span>
+
+	</div>
+
+
+<script src = "game_of_life.js"></script>
+
+
+</body>
+</html>

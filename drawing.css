@@ -1,0 +1,83 @@
+#board{
+	width:400px;
+	height:400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.cell{
+	position: absolute;
+	border: 1px solid #525252;
+}
+
+.liveCell{
+	background-color: green;
+}
+
+h1{
+	text-align: center;
+	font-family: "Lucida Grande";
+}
+
+#controlPanel{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.btn-xlarge {
+    font-size: 30px; 
+
+}
+#options{
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+button{
+	padding:10px;
+	background-color: white;
+	color:grey;
+	border: none;
+	text-decoration:none;
+	font-size: 16px;
+	outline: none;
+	vertical-align: middle;
+}
+
+button:hover{
+	color: green;
+	cursor: pointer;
+
+}
+button:active{
+	color: black;
+}
+
+#clearBtn, #randomBtn, #gliderBtn{
+	color: green;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+#clearBtn:hover, #randomBtn:hover, #gliderBtn:hover{
+	color: white;
+	background-color: green;
+	cursor: pointer;
+
+}
+#clearBtn:active, #randomBtn:active, #gliderBtn:active{
+	background-color: #00551D;
+	color: white;
+}
+#speed{
+	color: green;
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+select option{
+	color:green;
+}
+
