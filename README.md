@@ -1,4 +1,4 @@
-proj1
+Game of Life
 =====
 
 Game of Life
